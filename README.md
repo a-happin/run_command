@@ -11,7 +11,7 @@ lib.run_command.datapack
 ## Usage
 
 ```mcfunction
-/data modify storage run_command: commands append value "say hello"
+data modify storage run_command: commands append value "say hello"
 ```
 
 ## Requirement
