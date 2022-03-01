@@ -1,4 +1,4 @@
-lib.run_command.datapack
+run_command
 ==
 
 ## Features
@@ -12,11 +12,14 @@ lib.run_command.datapack
 
 ```mcfunction
 data modify storage run_command: commands append value "say hello"
+# => [@] hello
 ```
 
 ## Requirement
 
-- [corelib.dimension_void.datapack](https://github.com/a-happin/corelib.dimension_void.datapack)
+- Minecraft JE 1.18.2
+- [dimension_void](https://github.com/a-happin/dimension_void)
+- [late_tick](https://github.com/a-happin/late_tick)
 
 ## Installation
 
